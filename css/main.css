@@ -57,7 +57,7 @@ a{
     color: #fff;
 }
 .wrapper{
-    padding: 0 2em;
+    padding: 0 1em;
 }
 
 /* ------------------
@@ -144,7 +144,6 @@ a{
         Intro Section
 ------------------------------ */
 .main-section{
-    border: 1px solid black;
     width: 100%;
 }
 .intro{
@@ -181,6 +180,35 @@ a{
     transition: all 250ms ease-in;
 }
 .intro-btn:hover{
+    border-left: 2px solid aqua;
+    background-color: transparent;
+}
+
+.my-portfolio-title{
+    font-size: 2rem;
+    font-family: 'Cabin Sketch', cursive;
+}
+.portfolio-body{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgba(255,255,255, 0.9);
+}
+.portfolio-link{
+    color: aqua;
+    font-weight: bold;
+}
+.portfolio-link:hover{
+    color: white;
+}
+
+.btn-portfolio{
+    display: block;
+    margin-top: 2em;
+    margin-left: 0;
+    margin-right: auto;
+    transition: all 250ms ease-in;
+}
+.btn-portfolio:hover{
     border-left: 2px solid aqua;
     background-color: transparent;
 }

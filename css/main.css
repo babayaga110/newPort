@@ -57,7 +57,7 @@ a{
     color: #fff;
 }
 .wrapper{
-    padding: 1em;
+    padding: 0 2em;
 }
 
 /* ------------------
@@ -148,8 +148,6 @@ a{
     width: 100%;
 }
 .intro{
-    padding: 0 2em;
-    border: 1px solid red;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -180,6 +178,7 @@ a{
     margin: 0;
     margin-left: 0;
     margin-right: auto;
+    transition: all 250ms ease-in;
 }
 .intro-btn:hover{
     border-left: 2px solid aqua;

@@ -200,7 +200,6 @@ a{
 .portfolio-link:hover{
     color: white;
 }
-
 .btn-portfolio{
     display: block;
     margin-top: 2em;
@@ -211,6 +210,38 @@ a{
 .btn-portfolio:hover{
     border-left: 2px solid aqua;
     background-color: transparent;
+}
+
+/* --------------------------
+    Project Section
+--------------------------- */
+
+.root{
+    display: flex;
+    flex-direction: column;
+}
+.root-items{
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.5);
+    /* border: 1px solid rebeccapurple; */
+    margin: 0.2em;
+    margin-top: -1.2em;    
+}
+.root-items:first-child{
+    margin-top: 1em;
+}
+.root-link{
+    position: relative;
+}
+.root-link:hover:before{
+    position: absolute;
+    content: 'click';
+    max-width: 120px;
+    max-height: 120px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 1em;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 /* ------------------------------

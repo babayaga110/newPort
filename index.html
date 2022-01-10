@@ -121,29 +121,44 @@
                      --><span onmouseover="this.className='blast';" onmouseout="this.className='';">d</span>
                         <span onmouseover="this.className='blast';" onmouseout="this.className='';">I</span>
                 </h2>
-                <div class="skill-container">
-                    
+                <div class="skill-container" style="display: none;">
+                    <ul class="skill-list">
+                        <li class="skill">Html/Html5</li>
+                        <li class="skill">CSS/CSS3</li>
+                        <li class="skill">SASS</li>
+                        <li class="skill">Javascript/ES6+</li>
+                        <li class="skill">Bootstrap</li>
+                        <li class="skill">React</li>
+                        <li class="skill">Rest APIs</li>
+                        <li class="skill">UI Design</li>
+                        <li class="skill">My SQL</li>
+                        <li class="skill">Figma</li>
+                    </ul>
                 </div>
             </section>
 
-            <section class="contact">
-                <div class="contact-form">
-                    <form action="">
-                        <label for="name">
-                            <input id="name" type="text" placeholder="Name" required>
-                        </label>
-                        <label for="email">
-                            <input id="email" type="email" name="email" placeholder="Email" required>
-                        </label>
-                        <label for="subject">
-                            <input id="subject" type="text" placeholder="Subject" required>
-                        </label>
-                        <label for="textarea">
-                            <textarea name="" id="textarea" cols="30" rows="10" placeholder="Message"></textarea>
-                        </label>
-                        <button id="form-btn" type="submit">Send </button>
+            <section class="contact wrapper">
+                    <h2 class="contact-title">
+                        <span onmouseover="this.className='blast';" onmouseout="this.className='';">C</span><!--
+                        --><span onmouseover="this.className='blast';" onmouseout="this.className='';">o</span><!--
+                        --><span onmouseover="this.className='blast';" onmouseout="this.className='';">n</span><!--
+                        --><span onmouseover="this.className='blast';" onmouseout="this.className='';">t</span><!--
+                        --><span onmouseover="this.className='blast';" onmouseout="this.className='';">a</span><!--
+                        --><span onmouseover="this.className='blast';" onmouseout="this.className='';">c</span><!--
+                        --><span onmouseover="this.className='blast';" onmouseout="this.className='';">t</span>
+                        <span onmouseover="this.className='blast';" onmouseout="this.className='';">M</span><!--
+                        --><span onmouseover="this.className='blast';" onmouseout="this.className='';">e</span>
+                        
+                    </h2>
+                    <p class="contact-body">I’m interested in freelance opportunities – especially ambitious or large projects. 
+                        However, if you have other request or question, don’t hesitate to use the form.</p>
+                    <form class="contact-form" action="">
+                            <input class="textfield"  id="name" type="text" placeholder="Name" required>
+                            <input class="textfield"  id="email" type="email" name="email" placeholder="Email" required>
+                            <input class="textfield"  id="subject" type="text" placeholder="Subject" required>
+                            <textarea class="textfield"  name="" id="textarea" cols="30" rows="10" placeholder="Message"></textarea>
+                            <button class="btn btn-form" id="formBtn" type="submit">Send </button>
                     </form>
-                </div>
             </section>
        </main>
        <script src="js/script.js"></script>

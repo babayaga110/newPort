@@ -137,6 +137,55 @@ a{
     transform: scale(1.1);
     transition: transform 250ms;
 }
+
+
+
+/* -----------------------------
+        Intro Section
+------------------------------ */
+.main-section{
+    border: 1px solid black;
+    width: 100%;
+}
+.intro{
+    padding: 0 2em;
+    border: 1px solid red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro-title{
+    font-size: 3rem;
+    font-family: 'Cabin Sketch', cursive;
+    margin-bottom: 5px;
+}
+.intro-subtitle{
+    border-top: 5px double white;
+    padding-top: 1em;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+.btn{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.75em 2.25em;
+    border: none;
+    text-transform: uppercase;
+}
+.intro-btn{
+    display: block;
+    margin: 0;
+    margin-left: 0;
+    margin-right: auto;
+}
+.intro-btn:hover{
+    border-left: 2px solid aqua;
+    background-color: transparent;
+}
+
 /* ------------------------------
             Animation 
 -------------------------------- */

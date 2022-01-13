@@ -7,4 +7,10 @@ exitBtn.addEventListener('click', ()=>{
 menuBtn.addEventListener('click', ()=>{
     panel.style.transform= "translateX(0)";
 })
-    
+
+document.getElementById('formBtn').addEventListener('click',setTimeout(function(){
+    document.getElementById('name').value = ''
+    document.getElementById('email').value = ''
+    document.getElementById('subject').value = ''
+    document.getElementById('textarea').value =''
+},3000))

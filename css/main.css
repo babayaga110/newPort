@@ -216,37 +216,86 @@ a{
 
 /* --------------------------
     Project Section
---------------------------- */
-.project-section{
-    margin: 3em 0;
+    --------------------------- */
+    .project-section{
+        margin: 3em 0;
+    }
+    
+    .root-items{
+        margin:0;
+        margin-bottom: 2em;
+        font-size: 1rem;
+        color:rgba(255,255,255, 0.8);   
+        background-color: rgba(0,0,0, 0.4);
+        box-shadow: 10px 10px 2px rgba(0,0,0, 0.5);
+        position: relative;
 }
-.root{
-    display: flex;
-    flex-direction: column;
+.root-items-body{
+    margin: 0;
+    padding: 0 1em;
 }
-.root-items{
-    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.5);
-    /* border: 1px solid rebeccapurple; */
-    margin: 0.2em;
-    margin-top: -1.2em;    
+.root-items-body p{
+    color: rgba(255,255,255, 0.5);
 }
-.root-items:first-child{
-    margin-top: 1em;
-}
-.root-link{
-    position: relative;
-}
-.root-link:hover:before{
-    position: absolute;
-    content: 'click';
-    max-width: 120px;
-    max-height: 120px;
-    background-color: rgba(0, 0, 0, 0.75);
-    color: white;
-    padding: 1em;
-    font-size: 1rem;
+.root-body-link{
+    color: aqua;
     font-weight: bold;
 }
+.root-link{
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0.75em 2.25em;
+    border: none;
+    text-transform: uppercase;
+    transition: all 250ms ease-in;
+    margin-bottom: 1.5em;
+}
+.root-link:hover{
+    border-left: 2px solid aqua;
+    background-color: transparent;
+}
+.ongoing::before{
+    content: 'Upcoming Soon';
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    text-align: center;
+    font-weight: bold;
+    color:aqua;
+    display: grid;
+    place-content: center;
+}
+
+/* ----------------------------------
+------------------------------------ */
+
+.myskill-body{
+    color: rgba(255,255,255, 0.7);
+}
+.skill-container{
+    margin: 5em 0;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.skill-icon{
+    font-size: 2em;
+    color: aqua;
+    margin-bottom: 0.5em;
+}
+
 
 /* ----------------------------------
 ---------------------------------- */
@@ -265,6 +314,7 @@ a{
     color: rgba(255,255,255, 0.9);
 }
 .contact-form{
+    margin: 5em 0;
     padding: 0.2em;
 }
 .textfield{
@@ -275,6 +325,9 @@ a{
     padding: 0.75em;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
+}
+.textfield:placeholder-shown{
+    color: rgba(255,255,255, 0.5);
 }
 .btn-form{
     display: block;
@@ -287,6 +340,9 @@ a{
     border-left: 2px solid aqua;
     background-color: transparent;
 }
+
+
+
 
 /* ------------------------------
             Animation 

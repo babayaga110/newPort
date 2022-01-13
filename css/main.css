@@ -275,12 +275,14 @@ a{
 
 /* ----------------------------------
 ------------------------------------ */
-
-.myskill-body{
-    color: rgba(255,255,255, 0.7);
+.myskill{
+    margin: 5em 0;
 }
 .skill-container{
-    margin: 5em 0;
+    margin: 2em 0;
+}
+.myskill-body{
+    color: rgba(255,255,255, 0.7);
 }
 .skill{
     display: flex;

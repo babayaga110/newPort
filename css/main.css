@@ -80,6 +80,7 @@ a{
     transition: transform 250ms ;
     width: 100vw;
     transform: translateX(-1000px);
+    z-index:5;
 }
 .menuBtn{
     background: transparent;
